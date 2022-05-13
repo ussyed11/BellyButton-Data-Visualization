@@ -1,37 +1,44 @@
-## Welcome to GitHub Pages
+## Overview
+An interactive dashboard to explore the Belly Button Biodiversity dataset, which catalogs the microbes that colonize human navels.  Our volunteers should be able to identify the top 10 bacterial species in their belly buttons. That way, if Improbable Beef identifies a species as a candidate to manufacture synthetic beef, the volunteers will be able to identify whether that species is found in their navel.
 
-You can use the [editor on GitHub](https://github.com/ussyed11/BellyButton-Data-Visualization/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+The dataset reveals that a small handful of microbial species (also called operational taxonomic units, or OTUs, in the study) were present in more than 70% of people, while the rest were relatively rare.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Procedures and Results
+We started with JavaScript, Plotly, and D3.js to create a horizontal bar chart to display the top 10 bacterial species (OTUs) when an individual’s ID is selected from the dropdown menu on the webpage. The horizontal bar chart will display the sample_values as the values, the otu_ids as the labels, and the otu_labels as the hover text for the bars on the chart.  Our Javascript code and results are as follow:
 
-### Markdown
+![Screen Shot 2022-05-12 at 10 04 25 PM](https://user-images.githubusercontent.com/98566486/168196764-11e3883f-4572-4355-a3ab-57a23f8dc6bf.png)
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+![Screen Shot 2022-05-12 at 10 05 57 PM](https://user-images.githubusercontent.com/98566486/168196913-79432a10-ef01-48b3-a51e-5c9c1052dcfe.png)
 
-```markdown
-Syntax highlighted code block
+Next, we used JavaScript, Plotly, and D3.js to create a bubble chart that will display the following when an individual’s ID is selected from the dropdown menu webpage:
 
-# Header 1
-## Header 2
-### Header 3
+* The otu_ids as the x-axis values.
+* The sample_values as the y-axis values.
+* The sample_values as the marker size.
+* The otu_ids as the marker colors.
+* The otu_labels as the hover-text values.
 
-- Bulleted
-- List
+The bubble chart is shown below:
 
-1. Numbered
-2. List
+![Screen Shot 2022-05-12 at 10 08 34 PM](https://user-images.githubusercontent.com/98566486/168197134-efad2f1a-a522-41d4-9b6e-8552ff72c837.png)
 
-**Bold** and _Italic_ and `Code` text
+We created a gauge chart that displays the weekly washing frequency's value, and display the value as a measure from 0-10 on the progress bar in the gauge chart when an individual ID is selected from the dropdown menu through the following chart:
 
-[Link](url) and ![Image](src)
-```
+![Screen Shot 2022-05-12 at 10 10 49 PM](https://user-images.githubusercontent.com/98566486/168197309-1ffb989c-2009-49fe-a29c-ad42a3f550f4.png)
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+Finally, we used Bootstrap features to add vibrance to our interactive dashboard:
 
-### Jekyll Themes
+* Added an image to the jumbotron
+* Added background color or a variety of compatible colors to the webpage
+* Use a custom font with contrast for the colors
+* Made the webpage mobile-responsive
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ussyed11/BellyButton-Data-Visualization/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+
+## Summary
+We added our project to GitHub pages so anyone can run the script without running on a local server.  
+
+
+
+
