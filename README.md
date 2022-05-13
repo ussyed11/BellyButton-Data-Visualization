@@ -38,6 +38,7 @@ Finally, we used Bootstrap features to add vibrance to our interactive dashboard
 
 ## Summary
 We added our project to GitHub pages so anyone can run the script without running on a local server.  
+https://ussyed11.github.io/BellyButton-Data-Visualization/
 
 
 
